@@ -1,0 +1,61 @@
+{
+    "short_name": "Book Hub",
+    "name": "Book Hub - Discover Your Next Great Read",
+    "description": "Explore thousands of books, discover new authors, and join a community of passionate readers",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#0ea5e9",
+    "background_color": "#ffffff",
+    "orientation": "portrait-primary",
+    "categories": ["books", "education", "entertainment"],
+    "lang": "en",
+    "dir": "ltr",
+    "scope": "/",
+    "screenshots": [
+      {
+        "src": "screenshot-wide.png",
+        "sizes": "1280x720",
+        "type": "image/png",
+        "form_factor": "wide"
+      },
+      {
+        "src": "screenshot-narrow.png",
+        "sizes": "750x1334",
+        "type": "image/png",
+        "form_factor": "narrow"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Search Books",
+        "short_name": "Search",
+        "description": "Search for books by title, author, or genre",
+        "url": "/books",
+        "icons": [{ "src": "icon-search.png", "sizes": "96x96" }]
+      },
+      {
+        "name": "My Favorites",
+        "short_name": "Favorites",
+        "description": "View your favorite books",
+        "url": "/favorites",
+        "icons": [{ "src": "icon-heart.png", "sizes": "96x96" }]
+      }
+    ]
+  }
